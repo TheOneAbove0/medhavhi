@@ -41,7 +41,7 @@ export default function IntroPage() {
           </div>
         </div>
 
-        <div className=" relative h-60 sm:h-72 sm:h-96 md:h-fit items-center overflow-hidden md:overflow-visible ">
+        <div className=" relative h-60 sm:h-72  md:h-fit items-center overflow-hidden md:overflow-visible ">
           <div className="absolute -top-5 flex gap-2 md:gap-4 lg:gap-6  ">
             <div className="relative rounded-xl shadow-sm overflow-hidden h-[230px] w-[90px]  sm:h-[400px] sm:w-[192.67px] md:h-[350px] md:w-[150px] xl:h-[400px] xl:w-[192.67px]">
               <img

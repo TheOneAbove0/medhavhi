@@ -59,7 +59,7 @@ export default function AlgorithmPage() {
             Sunita Nuepane Silwal
           </h1>
 
-          <p className=" text-gray-500 font-medium text-[10px] sm:text-xs mdd:text-sm ">
+          <p className=" text-gray-500 font-medium text-[10px] sm:text-xs md:text-sm ">
             Padma Shree College
           </p>
         </div>

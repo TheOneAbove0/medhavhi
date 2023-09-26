@@ -8,7 +8,7 @@ module.exports = {
       colors: {
         primaryColor: "#45B8EA",
         backGroundColor: "#faf9f6",
-        SilverColor: "#706f6f",
+        SilverColor: "#545454",
         LightBlue: "#E2E8F0",
       },
       fontSize: {
