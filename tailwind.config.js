@@ -10,6 +10,8 @@ module.exports = {
         backGroundColor: "#faf9f6",
         SilverColor: "#545454",
         LightBlue: "#E2E8F0",
+        NewBlue: "#E2EFF0",
+
       },
       fontSize: {
         'normalSize': '16px',
