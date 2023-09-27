@@ -15,10 +15,10 @@ export default function IntroPage() {
           </p>
 
           <div className="flex gap-2 sm:gap-3 mt-4 md:mt-10">
-            <button className="rounded-lg capitalize shadow-md font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-[0.06em] px-8 py-[13px] bg-primaryColor text-white ">
+            <button className="rounded-lg capitalize shadow-md font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primaryColor text-white ">
               Get Started
             </button>
-            <button className=" rounded-lg capitalize shadow-sm font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-[0.06em] px-8 py-[13px] bg-white text-primary-blue   ">
+            <button className=" rounded-lg capitalize shadow-sm font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-white text-primaryColor   ">
               Create School
             </button>
           </div>

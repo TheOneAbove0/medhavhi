@@ -6,6 +6,7 @@ import CommunityPage from './CommunityPage';
 import Discover from './Discover';
 import MobileApp from './MobileApp';
 import Footer from './Footer';
+import DottedSchool from './DottedSchool';
 
 export default function Main() {
   return (
@@ -14,9 +15,11 @@ export default function Main() {
         <AlgorithmPage />
         <ResourcesPage />
         <CommunityPage />
+        <DottedSchool />
         <Discover />
         <MobileApp />
         <Footer />
+        
     </div>
   )
 }

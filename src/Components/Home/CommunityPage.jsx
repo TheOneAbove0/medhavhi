@@ -42,7 +42,7 @@ export default function CommunityPage() {
           </div>
 
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-[0.02em] text-[#090914] leading-5 md:leading-[22.4px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22.4px] ">
             Attendance and Leave Management
             </h1>
             <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22.4px] ">

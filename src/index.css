@@ -39,3 +39,18 @@ body::-webkit-scrollbar-thumb {
     scrollbar-width: none;
     /* Firefox */
 }
+
+/* CSS for "Show" class */
+.Show {
+    opacity: 1; 
+    transform: translateX(0); 
+    transition: opacity 0.3s ease-in-out; 
+    overflow: hidden;
+  }
+  
+  /* CSS for "hidden" class */
+  .hide {
+    opacity: 0; 
+    transform: translateX(-100%); 
+    transition: opacity 0.3s ease-in-out; 
+  }
