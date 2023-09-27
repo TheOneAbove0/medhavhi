@@ -40,17 +40,98 @@ body::-webkit-scrollbar-thumb {
     /* Firefox */
 }
 
-/* CSS for "Show" class */
-.Show {
-    opacity: 1; 
-    transform: translateX(0); 
-    transition: opacity 0.3s ease-in-out; 
-    overflow: hidden;
+@keyframes animateLeft {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
   }
   
-  /* CSS for "hidden" class */
-  .hide {
-    opacity: 0; 
-    transform: translateX(-100%); 
-    transition: opacity 0.3s ease-in-out; 
+
+  .animate-left {
+    animation: animateLeft 1s ease-in-out; 
+    animation-fill-mode: forwards; 
+  }
+  
+
+  @keyframes animateUpward {
+    0% {
+      transform: translateY(100%);
+      
+    }
+    100% {
+      transform: translateY(0);
+      
+    }
+  }
+  
+ 
+  .animate-upward {
+    animation: animateUpward 1s ease-in-out forwards;
+    
+  }
+
+  @keyframes animateUpwardMore {
+    0% {
+      transform: translateY(190%);
+      
+    }
+    100% {
+      transform: translateY(0);
+      
+    }
+  }
+  
+ 
+  .animate-upward-more {
+    animation: animateUpwardMore 1s ease-in-out forwards;
+    
+  }
+
+  @keyframes animateDownward {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-downward {
+    animation: animateDownward 1s ease-in-out forwards ;
+  }
+
+  @keyframes animateUpwardFast {
+    0% {
+      transform: translateY(100%);
+      
+    }
+    100% {
+      transform: translateY(0);
+      
+    }
+  }
+  
+
+  .animate-upward-fast {
+    animation: animateUpwardFast 0.4s ease-in-out forwards;
+    
+  }
+
+  
+
+
+  @keyframes animateDownwardFast {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+  .animate-downward-fast {
+    animation: animateDownwardFast 0.4s ease-in-out forwards ;
   }

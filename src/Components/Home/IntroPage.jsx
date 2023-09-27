@@ -8,7 +8,7 @@ export default function IntroPage() {
           <h1 className="tracking-tight text-2xl sm:text-3xl lg:text-4xl xl:text-[40px] xl:leading-[48px] font-bold  ">
             Medhavhi: School & Learning Management System
           </h1>
-          <p className=" text-[#545454] text-sm sm:text-[15px] md:text-base sm:leading-[22.4px] tracking-tight ">
+          <p className=" text-[#545454] text-sm sm:text-[15px] md:text-base sm:leading-[22px] tracking-tight ">
             Medhavhi, the all-in-one platform connecting school, students,
             teachers, and parents, simplifying education, communication, and
             collaboration for a seamless learning experience.
@@ -43,14 +43,14 @@ export default function IntroPage() {
 
         <div className=" relative h-60 sm:h-72  md:h-fit items-center overflow-hidden md:overflow-visible ">
           <div className="absolute -top-5 flex gap-2 md:gap-4 lg:gap-6  ">
-            <div className="relative rounded-xl shadow-sm overflow-hidden h-[230px] w-[90px]  sm:h-[400px] sm:w-[192.67px] md:h-[350px] md:w-[150px] xl:h-[400px] xl:w-[192.67px]">
+            <div className="relative rounded-xl shadow-sm  overflow-hidden h-[230px] w-[90px]  sm:h-[400px] sm:w-[192px] md:h-[350px] md:w-[150px] xl:h-[400px] xl:w-[192px]">
               <img
                 className="h-full w-full object-fill"
                 src="https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fmobilepic.4b731067.png&w=1920&q=75"
                 alt="mobile-app"
               />
             </div>
-            <div className="relative rounded-xl shadow-sm overflow-hidden h-[230px] w-[420px]  sm:h-[400px] sm:w-[640px] md:h-[350px] md:w-[410px] xl:h-[400px] xl:w-[640px]">
+            <div className="relative rounded-xl  shadow-sm overflow-hidden h-[230px] w-[420px]  sm:h-[400px] sm:w-[640px] md:h-[350px] md:w-[410px] xl:h-[400px] xl:w-[640px]">
               <img
                 className="h-full w-full object-fill "
                 src="https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Ffontmedhvhi.f4f65264.png&w=3840&q=75"

@@ -29,7 +29,7 @@ export default function Discover() {
     {
       imageSrc:
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent.5e2bccfa.png&w=640&q=75",
-      title: "Why use Medhavhi?",
+      title: "Discover something awesome",
       date: "12th June 2023",
     },
 
@@ -42,7 +42,7 @@ export default function Discover() {
     {
       imageSrc:
         "https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fcomponent.5e2bccfa.png&w=640&q=75",
-      title: "Why use Medhavhi?",
+      title: "Discover something awesome",
       date: "12th June 2023",
     },
     {
@@ -85,14 +85,14 @@ export default function Discover() {
               <div
                 className={
                   hoveredIndex === index
-                    ? "flex flex-col px-6 absolute top-2 sm:top-4 mdd:top-5 xl:top-7 text-white gap-2"
-                    : "flex flex-col px-6 opacity-0 h-0 absolute -top-20 text-white gap-2"
+                    ? "flex flex-col px-6 absolute animate-downward-fast top-2 sm:top-4 mdd:top-5 xl:top-7 text-white gap-2"
+                    : "flex flex-col px-6 opacity-0 h-0 absolute  -top-20 text-white gap-2"
                 }
               >
-                <p className="flex text-xs sm:text-sm md:text-base xl:text-2xl font-semibold md:leading-[22.4px] xl:leading-[28.8px] tracking-wide">
+                <p className="flex  text-xs sm:text-sm md:text-base xl:text-2xl  font-semibold md:leading-[22.4px] xl:leading-[28.8px] tracking-wide">
                   {item.title}
                 </p>
-                <p className="text-[8px] sm:text-[10px] mdd:text-xs xl:text-sm md:leading-4">
+                <p className="text-[8px] sm:text-[10px] mdd:text-xs  xl:text-sm md:leading-4">
                   {item.date}
                 </p>
               </div>
@@ -100,7 +100,7 @@ export default function Discover() {
               <div
                 className={
                   hoveredIndex === index
-                    ? "bottom-8 xs:bottom-12 xl:bottom-10 absolute px-6 pt-6"
+                    ? "bottom-8 xs:bottom-12 animate-upward-fast xl:bottom-10 absolute px-6 pt-6"
                     : "bottom-0 opacity-0 absolute px-6 pt-6"
                 }
               >
@@ -112,6 +112,8 @@ export default function Discover() {
             </div>
           ))}
         </div>
+
+
       </div>
     </div>
   );

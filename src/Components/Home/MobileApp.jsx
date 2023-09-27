@@ -5,7 +5,7 @@ export default function MobileApp() {
     <div className=" flex flex-col md:flex-row items-center lg:px-32 px-5  ">
       <div className=" w-full bg-NewBlue flex flex-wrap-reverse lg:flex-nowrap items-center pb-5 lg:pb-16 xl:pb-0 pt-5 md:pt-9 md:overflow-hidden rounded-[40px] pl-5 pr-5 lg:pr-0 lg:pl-14 relative ">
         <div className=" xl:flex-1 xl-w-full flex lg:w-6/12 flex-col ">
-          <div className=" text-2xl sm:text-3xl lg:text-left text-center lg:text-5xl xl:text-[56px] xl:leading-[67.2px] mb-3 sm:mb-4 md:mb-6 tracking-wide font-bold ">
+          <div className=" text-2xl sm:text-3xl lg:text-left text-center lg:text-5xl xl:text-[56px] xl:leading-[67px] mb-3 sm:mb-4 md:mb-6 tracking-wide font-bold ">
             Download the mobile app now.
           </div>
           <div className=" text-sm sm:text-base text-center lg:text-left md:text-xl md:leading-[30px] mb-6 sm:mb-8 md:mb-[50px] lg:mb-[70px] xl:mb-[96px] "></div>

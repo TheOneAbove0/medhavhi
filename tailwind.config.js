@@ -11,6 +11,7 @@ module.exports = {
         SilverColor: "#545454",
         LightBlue: "#E2E8F0",
         NewBlue: "#E2EFF0",
+        newBlue: "#F2F6F6",
 
       },
       fontSize: {

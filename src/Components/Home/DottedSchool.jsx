@@ -32,10 +32,10 @@ export default function DottedSchool() {
   return (
     <div>
       <div className="w-full lg:px-32 px-5">
-        <p className="mb-2 md:mb-3 font-semibold text-primaryColor text-xs sm:text-sm lg:text-base leading-[22.4px] tracking-wide">
+        <p className="mb-2 md:mb-3 font-semibold text-primaryColor text-xs sm:text-sm lg:text-base leading-[22px] tracking-wide">
           Create School
         </p>
-        <h1 className="mb-5 md:mb-8 font-bold tracking-wide text-2xl md:text-3xl lg:text-4xl lg:leading-[43.2px]">
+        <h1 className="mb-5 md:mb-8 font-bold tracking-wide text-2xl md:text-3xl lg:text-4xl lg:leading-[43px]">
           How it works
         </h1>
         <div className="mb-8 sm:mb-10 md:mb-[70px]">

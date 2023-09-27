@@ -8,14 +8,14 @@ export default function AlgorithmPage() {
           <div className=" w-full ">
             <div className=" w-full relative h-[320px] overflow-hidden sm:w-[500px] sm:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-LightBlue rounded-2xl ">
               <div className=" flex justify-end items-center flex-col ">
-                <div className=" absolute top-[30px] sm:top-[90px]  w-[250px] sm:w-[320px] mt-auto h-[73px] ">
+                <div className=" absolute animate-left top-[30px] sm:top-[90px]  w-[250px] sm:w-[320px] mt-auto h-[73px] ">
                   <img
                     src="https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FroutineClass.2bf383a6.png&w=1080&q=75"
                     alt="class-8A"
                   />
                 </div>
 
-                <div className=" sm:h-[700px] h-[600px]  absolute overflow-hidden md:-bottom-[400px] -bottom-[390px]  sm:-bottom-[470px] w-[250px] sm:w-[310px] ">
+                <div className=" sm:h-[700px] h-[600px] animate-upward  absolute overflow-hidden md:-bottom-[400px] -bottom-[390px]  sm:-bottom-[470px] w-[250px] sm:w-[310px] ">
                   <img
                     src="https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2FTeachers.a92239bd.png&w=1080&q=75"
                     alt="Available-person"
@@ -27,7 +27,7 @@ export default function AlgorithmPage() {
         </div>
 
         <div className=" w-full flex flex-col ">
-          <div className=" text-primaryColor font-semibold tracking-[0.02em] text-sm sm:text-sm md:text-base md:leading-[22.4px] mb-2 md:mb-4 ">
+          <div className=" text-primaryColor font-semibold tracking-wide text-sm sm:text-sm md:text-base md:leading-[22px] mb-2 md:mb-4 ">
             Create Algorithm Assisted Routine
           </div>
 
@@ -35,7 +35,7 @@ export default function AlgorithmPage() {
             Experience the power of algorithm-assisted routine creation
           </div>
 
-          <p className=" text-sm sm:text-sm md:text-base lg:text-sm xl-[text-base] leading-5 md:leading-[25.6px] tracking-wider text-SilverColor mb-5 md:mb-[44px] ">
+          <p className=" text-sm sm:text-sm md:text-base lg:text-sm xl-[text-base] leading-5 md:leading-[25px] tracking-wider text-SilverColor mb-5 md:mb-[44px] ">
             Our school management system introduces the innovative "Create
             Algorithm Assisted Routine" feature, designed to simplify and
             optimize the process of creating and managing school timetables. By

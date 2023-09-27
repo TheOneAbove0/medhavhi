@@ -6,10 +6,10 @@ export default function Footer() {
     <div className=" py-5 md:py-14 lg:px-32 px-5  ">
       <div className="flex flex-col sm:flex-row justify-between gap-8 py-10 border-t-2 sm:items-start items-center lg:pr-[81px]">
         <div className="flex flex-col items-center justify-center sm:justify-start min-w-[200px] gap-4 ">
-          <div className="text-base text-primaryColor leading-[22.4px] ">
+          <div className="text-base text-primaryColor leading-[22px] ">
             Who we are
           </div>
-          <div className="font-medium capitalize text-sm md:text-base md:leading-[22.4px] sm:items-start sm:justify-start grid grid-cols-2 gap-x-8 gap-y-2 items-center justify-center">
+          <div className="font-medium capitalize text-sm md:text-base md:leading-[22px] sm:items-start sm:justify-start grid grid-cols-2 gap-x-8 gap-y-2 items-center justify-center">
             <div>
               <a href="/">Home</a>
             </div>
@@ -26,10 +26,10 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center justify-center sm:justify-start min-w-[200px] gap-4 ">
-          <div className="text-base text-primaryColor leading-[22.4px] ">
+          <div className="text-base text-primaryColor leading-[22px] ">
             Company
           </div>
-          <div className="font-medium capitalize text-sm md:text-base md:leading-[22.4px] sm:items-start sm:justify-start grid grid-cols-2 gap-x-8 gap-y-2 items-center justify-center">
+          <div className="font-medium capitalize text-sm md:text-base md:leading-[22px] sm:items-start sm:justify-start grid grid-cols-2 gap-x-8 gap-y-2 items-center justify-center">
             <div>
               <a href="/">About </a>
             </div>
@@ -43,10 +43,10 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col items-center sm:items-start justify-center sm:justify-start gap-4 ">
-          <div className="text-base text-primaryColor text-center leading-[22.4px] ">
+          <div className="text-base text-primaryColor text-center leading-[22px] ">
             Socials
           </div>
-          <div className="font-medium capitalize text-sm md:text-base md:leading-[22.4px] sm:items-start sm:justify-start flex items-center justify-center gap-6">
+          <div className="font-medium capitalize text-sm md:text-base md:leading-[22px] sm:items-start sm:justify-start flex items-center justify-center gap-6">
             <div>
               <svg
                 width="1em"
