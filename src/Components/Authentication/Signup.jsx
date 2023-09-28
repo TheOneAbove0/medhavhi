@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Navbar from "./Navbar";
+import { Link } from "react-router-dom";
 
 export default function Signup() {
   const [showPassword, setShowPassword] = useState(false);
@@ -357,7 +358,7 @@ export default function Signup() {
                 <div className="text-sm mt-2">
                   Have an account?
                   <span className="text-SkyBlue pl-1 cursor-pointer">
-                    Login Here
+                    <Link to="/login">Login Here</Link>
                   </span>
                 </div>
               </div>

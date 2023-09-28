@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function IntroPage() {
   return (
@@ -16,10 +17,16 @@ export default function IntroPage() {
 
           <div className="flex gap-2 sm:gap-3 mt-4 md:mt-10">
             <button className="rounded-lg capitalize shadow-md font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primaryColor text-white ">
-              Get Started
+            <Link to="/register">
+            Get Started
+            </Link>
+              
             </button>
             <button className=" rounded-lg capitalize shadow-sm font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-white text-primaryColor   ">
-              Create School
+            <Link to="/login">
+            Create School
+            </Link>
+              
             </button>
           </div>
           <div className=" flex items-center mt-1 sm:mt-2 gap-2 md:gap-4 ">

@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 export default function ResourcesPage() {
   const [showFirstSection, setShowFirstSection] = useState(true);
@@ -108,7 +109,10 @@ export default function ResourcesPage() {
 
           <div className=" mt-5 md:mt-12 ">
             <button className=" rounded-lg capitalize font-medium text-xs sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primaryColor text-white  ">
-              Start Using
+            <Link to="/register">
+            Start Using
+            </Link>
+              
             </button>
           </div>
         </div>

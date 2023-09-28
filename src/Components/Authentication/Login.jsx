@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from 'react-router-dom';
 import Navbar from "./Navbar";
 
 export default function Login() {
@@ -102,7 +103,7 @@ export default function Login() {
                   <div className="text-sm mt-2">
                     Don’t have an account?{" "}
                     <span className="text-SkyBlue cursor-pointer">
-                      Create One
+                    <Link to="/register">Create One</Link>
                     </span>
                   </div>
                   <div className="flex items-center gap-2 mt-5">

@@ -1,13 +1,16 @@
-// import Login from "./Components/Authentication/Login";
+import { Routes, BrowserRouter, Route } from 'react-router-dom';
+import Login from "./Components/Authentication/Login";
 import Signup from "./Components/Authentication/Signup";
-// import Main from "./Components/Home/Main";
-// import Navbar from "./Components/Navbar/Navbar";
+import Main from "./Components/Home/Main";
 
 export default function App() {
   return (
-    <div  >
-
-      <Signup />
-    </div>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Main />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<Signup />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }

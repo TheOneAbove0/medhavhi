@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function AlgorithmPage() {
   return (
@@ -45,7 +46,9 @@ export default function AlgorithmPage() {
           </p>
           <div className=" mb-3 md:mb-6 ">
             <button className="rounded-lg capitalize shadow-md font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-[0.06em] px-8 py-[13px] bg-primaryColor text-white ">
-              Get Started
+            <Link to="/register">
+            Get Started
+            </Link>
             </button>
           </div>
 

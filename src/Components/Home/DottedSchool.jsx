@@ -41,7 +41,7 @@ export default function DottedSchool() {
         <div className="mb-8 sm:mb-10 md:mb-[70px]">
           <button
             type="button"
-            className="rounded-lg capitalize font-medium text-xs sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primary-blue text-white btn-animation"
+            className="rounded-lg capitalize font-medium text-xs sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primaryColor text-white "
           >
             Create School
           </button>
