@@ -1,16 +1,7 @@
-import { Routes, BrowserRouter, Route } from 'react-router-dom';
-import Login from "./Components/Authentication/Login";
-import Signup from "./Components/Authentication/Signup";
-import Main from "./Components/Home/Main";
+import Routing from "./Routing"
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
-        <Route path="/" element={<Main />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Signup />} />
-      </Routes>
-    </BrowserRouter>
+   <Routing />
   );
 }
