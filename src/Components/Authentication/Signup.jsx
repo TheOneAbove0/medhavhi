@@ -403,7 +403,12 @@ export default function Signup() {
               Login with Google
             </button>
           </div>
-          <div className="flex-1 hidden md:block relative "></div>
+          <div className="flex-1 hidden md:block relative ">
+            <img
+              src="https://medhavhi.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fauth.ac983362.png&w=640&q=75"
+              alt="User-login"
+            />
+          </div>
         </div>
       </div>
     </div>

@@ -20,7 +20,7 @@ export default function Footer() {
               <a href="/">Features</a>
             </div>
             <div>
-              <a href="/#discover">Discover</a>
+              <a href="/">Discover</a>
             </div>
           </div>
         </div>
