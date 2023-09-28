@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Medhavhi/static/css/main.61b34571.css",
-    "main.js": "/Medhavhi/static/js/main.7bea460e.js",
-    "static/js/787.d1d1afda.chunk.js": "/Medhavhi/static/js/787.d1d1afda.chunk.js",
-    "index.html": "/Medhavhi/index.html",
-    "main.61b34571.css.map": "/Medhavhi/static/css/main.61b34571.css.map",
-    "main.7bea460e.js.map": "/Medhavhi/static/js/main.7bea460e.js.map",
-    "787.d1d1afda.chunk.js.map": "/Medhavhi/static/js/787.d1d1afda.chunk.js.map"
+    "main.css": "/static/css/main.61b34571.css",
+    "main.js": "/static/js/main.f47ad6ed.js",
+    "static/js/787.d1d1afda.chunk.js": "/static/js/787.d1d1afda.chunk.js",
+    "index.html": "/index.html",
+    "main.61b34571.css.map": "/static/css/main.61b34571.css.map",
+    "main.f47ad6ed.js.map": "/static/js/main.f47ad6ed.js.map",
+    "787.d1d1afda.chunk.js.map": "/static/js/787.d1d1afda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61b34571.css",
-    "static/js/main.7bea460e.js"
+    "static/js/main.f47ad6ed.js"
   ]
 }
