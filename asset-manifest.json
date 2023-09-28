@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Medhavhi/static/css/main.61b34571.css",
-    "main.js": "/Medhavhi/static/js/main.eda7cccf.js",
+    "main.js": "/Medhavhi/static/js/main.d7f0aae2.js",
     "static/js/787.d1d1afda.chunk.js": "/Medhavhi/static/js/787.d1d1afda.chunk.js",
     "index.html": "/Medhavhi/index.html",
     "main.61b34571.css.map": "/Medhavhi/static/css/main.61b34571.css.map",
-    "main.eda7cccf.js.map": "/Medhavhi/static/js/main.eda7cccf.js.map",
+    "main.d7f0aae2.js.map": "/Medhavhi/static/js/main.d7f0aae2.js.map",
     "787.d1d1afda.chunk.js.map": "/Medhavhi/static/js/787.d1d1afda.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.61b34571.css",
-    "static/js/main.eda7cccf.js"
+    "static/js/main.d7f0aae2.js"
   ]
 }
