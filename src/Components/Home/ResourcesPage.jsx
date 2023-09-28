@@ -18,7 +18,7 @@ export default function ResourcesPage() {
           <div class="w-full">
           <div class="w-full">
         {showFirstSection && (
-          <div class="w-full relative h-[320px] overflow-hidden xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-[#E2E8F0] rounded-2xl">
+          <div class="w-full relative h-[320px] overflow-hidden xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-LightBlue rounded-2xl">
             <div class="flex justify-end items-center flex-col">
               <div class=" absolute md:top-[60px] top-[30px] w-[250px] xs:w-[290px] animate-left mt-auto h-[120px] md:h-[150px]">
                 <img
@@ -37,7 +37,7 @@ export default function ResourcesPage() {
         )}
 
         {!showFirstSection && (
-          <div class="w-full relative h-[320px] overflow-hidden xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-[#E2E8F0] rounded-2xl">
+          <div class="w-full relative h-[320px] overflow-hidden xs:w-[500px] xs:h-[400px] md:w-[700px] md:h-[480px] lg:w-[400px] lg:h-[480px] xl:w-[480px] xl:h-[480px] bg-LightBlue rounded-2xl">
             <div class="flex justify-end items-center flex-col">
               <div class=" absolute top-[20px] xs:top-[30px] md:top-[60px] animate-left w-[290px] mt-auto h-[120px] xs:h-[150px]">
                 <img
@@ -67,20 +67,20 @@ export default function ResourcesPage() {
             Streamlining Operations with Efficient Class and Resource Management{" "}
           </div>
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-lightBlack leading-5 md:leading-[22px] ">
               Assignments
             </h1>
-            <p className=" text-xs sm:text-sm md:text-base tracking-wide text-[#545454] leading-5 md:leading-[22px] ">
+            <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22px] ">
               Seemlessly create, distribute, and evaluate assignments, fostering
               a productive and engaging learning environment.
             </p>
-            <div className=" w-1/2 bg-[#F2F6F6] rounded-full h-1 ">
+            <div className=" w-1/2 bg-newBlue rounded-full h-1 ">
               <div className=" w-full bg-primaryColor rounded-full h-1 "> </div>
             </div>
           </div>
 
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-lightBlack leading-5 md:leading-[22px] ">
               Videos & Resources
             </h1>
             <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22px] ">
@@ -88,13 +88,13 @@ export default function ResourcesPage() {
               and other learning resources, creating a dynamic and engaging
               learning environment.
             </p>
-            <div className=" w-1/2 bg-[#F2F6F6] rounded-full h-1 ">
+            <div className=" w-1/2 bg-newBlue rounded-full h-1 ">
               <div className=" w-full bg-primaryColor rounded-full h-1 "> </div>
             </div>
           </div>
 
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-lightBlack leading-5 md:leading-[22px] ">
               Doubts Clearance
             </h1>
             <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22px] ">
@@ -102,14 +102,14 @@ export default function ResourcesPage() {
               with collaborative platforms to seek clarification and enhance
               their understanding.
             </p>
-            <div className=" w-1/2 bg-[#F2F6F6] rounded-full h-1 ">
+            <div className=" w-1/2 bg-newBlue rounded-full h-1 ">
               <div className=" w-full bg-primaryColor rounded-full h-1 "> </div>
             </div>
           </div>
 
           <div className=" mt-5 md:mt-12 ">
             <button className=" rounded-lg capitalize font-medium text-xs sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primaryColor text-white  ">
-            <Link to="/register">
+            <Link to="/medhavhi/register">
             Start Using
             </Link>
               

@@ -78,10 +78,10 @@ export default function CommunityPage() {
             Seamless Online Class, Event, Attendance and Leave management
           </div>
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-lightBlack leading-5 md:leading-[22px] ">
               Online class & Events
             </h1>
-            <p className=" text-xs sm:text-sm md:text-base tracking-wide text-[#545454] leading-5 md:leading-[22px] ">
+            <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22px] ">
               Effortlessly conduct online classes, manage virtual events, and
               foster meaningful engagement within your school community.
             </p>
@@ -91,7 +91,7 @@ export default function CommunityPage() {
           </div>
 
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-lightBlack leading-5 md:leading-[22px] ">
               Community
             </h1>
             <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22px] ">
@@ -105,7 +105,7 @@ export default function CommunityPage() {
           </div>
 
           <div className=" flex w-full flex-col gap-2 mt-6 ">
-            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-[#090914] leading-5 md:leading-[22px] ">
+            <h1 className=" font-bold text-xs sm:text-sm md:text-base tracking-wide text-lightBlack leading-5 md:leading-[22px] ">
               Attendance and Leave Management
             </h1>
             <p className=" text-xs sm:text-sm md:text-base tracking-wide text-SilverColor leading-5 md:leading-[22.4px] ">
@@ -120,7 +120,7 @@ export default function CommunityPage() {
 
           <div className=" mt-5 md:mt-12 ">
             <button className=" rounded-lg capitalize font-medium text-xs sm:text-sm md:text-base md:leading-[22px] tracking-wider px-8 py-[13px] bg-primaryColor text-white  ">
-            <Link to="/register">
+            <Link to="/medhavhi/register">
             Start Using
             </Link>
               

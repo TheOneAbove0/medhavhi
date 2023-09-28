@@ -16,10 +16,10 @@ export default function Navbar() {
 
         <div className=" lg:flex hidden  items-center gap-10 text-normalSize tracking-wider font-medium text-base ">
           <div>
-            <Link to="/login">Login</Link>
+            <Link to="/medhavhi/login">Login</Link>
           </div>
           <div className=" px-8 py-3 shadow-sm text-primaryColor rounded-sm ">
-            <Link to="/register">Sign Up</Link>
+            <Link to="/medhavhi/register">Sign Up</Link>
           </div>
         </div>
 

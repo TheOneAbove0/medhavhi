@@ -8,9 +8,9 @@ export default function Routing() {
   return (
     <BrowserRouter>
     <Routes>
-      <Route path="/" element={<Main />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<Signup />} />
+      <Route path="/medhavhi" element={<Main />} />
+      <Route path="/medhavhi/login" element={<Login />} />
+      <Route path="/medhavhi/register" element={<Signup />} />
     </Routes>
   </BrowserRouter>
   )

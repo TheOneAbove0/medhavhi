@@ -13,6 +13,7 @@ module.exports = {
         NewBlue: "#E2EFF0",
         newBlue: "#F2F6F6",
         SkyBlue: "#2BB8D6",
+        lightBlack: "#090914",
 
       },
       fontSize: {

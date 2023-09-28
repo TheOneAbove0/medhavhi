@@ -103,7 +103,7 @@ export default function Login() {
                   <div className="text-sm mt-2">
                     Don’t have an account?{" "}
                     <span className="text-SkyBlue cursor-pointer">
-                    <Link to="/register">Create One</Link>
+                    <Link to="/medhavhi/register">Create One</Link>
                     </span>
                   </div>
                   <div className="flex items-center gap-2 mt-5">

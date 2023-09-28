@@ -46,7 +46,7 @@ export default function AlgorithmPage() {
           </p>
           <div className=" mb-3 md:mb-6 ">
             <button className="rounded-lg capitalize shadow-md font-medium text-sm sm:text-sm md:text-base md:leading-[22px] tracking-[0.06em] px-8 py-[13px] bg-primaryColor text-white ">
-            <Link to="/register">
+            <Link to="/medhavhi/register">
             Get Started
             </Link>
             </button>
@@ -58,7 +58,7 @@ export default function AlgorithmPage() {
             teachers has been so much easier. All thanks to Medhavhi.”
           </div>
 
-          <h1 className=" md:mb-1 text-xs sm:text-sm md:text-base leading-[26px] tracking-wide font-bold text-[#090914] ">
+          <h1 className=" md:mb-1 text-xs sm:text-sm md:text-base leading-[26px] tracking-wide font-bold text-lightBlack ">
             Sunita Nuepane Silwal
           </h1>
 

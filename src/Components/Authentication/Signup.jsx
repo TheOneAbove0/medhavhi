@@ -358,7 +358,7 @@ export default function Signup() {
                 <div className="text-sm mt-2">
                   Have an account?
                   <span className="text-SkyBlue pl-1 cursor-pointer">
-                    <Link to="/login">Login Here</Link>
+                    <Link to="/medhavhi/login">Login Here</Link>
                   </span>
                 </div>
               </div>
