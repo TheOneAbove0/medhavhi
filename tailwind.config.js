@@ -12,6 +12,7 @@ module.exports = {
         LightBlue: "#E2E8F0",
         NewBlue: "#E2EFF0",
         newBlue: "#F2F6F6",
+        SkyBlue: "#2BB8D6",
 
       },
       fontSize: {
